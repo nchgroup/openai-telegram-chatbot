@@ -44,7 +44,7 @@ def handle_message(update, context):
     # Use the OpenAI API to generate a response to the user's message
     response = openai.Completion.create(
         engine="text-davinci-003",
-        prompt=update.message.text,
+        prompt=" ".join(context.args),
         max_tokens=1024,
         temperature=0.5,
     )
