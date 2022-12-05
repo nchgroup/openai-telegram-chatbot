@@ -1,6 +1,6 @@
 # openai-telegram-chatbot
 
-Caracola Mágica - the terror of IT professionals
+Caracola Mágica - OpenAI Telegram ChatBot - The terror of IT professionals
 
 ## Config
 
