@@ -12,6 +12,12 @@ Please read and edit the `caracola.py` file and change the necessary info
 python3 caracola.py
 ```
 
+## Usage of Telegram chat
+
+```
+/caracola <Request/Question/Ask>
+```
+
 ## Whats Caracola Mágica?
 
 ### Spanish
