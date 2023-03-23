@@ -47,6 +47,6 @@ The Magic Snail (Caracola Magica) is a toy that SpongeBob and Patrick use to ans
 ### Terror History
 * https://aifuture.substack.com/p/will-ai-target-your-job-next
 
-# Author
+# Authors
 * Vay3t - https://twitter.com/vay3t - https://gitlab.com/vay3t
 * OpenAI - https://chat.openai.com/chat
