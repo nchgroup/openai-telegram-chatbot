@@ -11,7 +11,7 @@ import logging
 openai.api_key = "<OPENAI-KEY>" # Set up the OpenAI API key
 LIST_OF_ADMINS = [-9999999]  # Telegram Chat Group
 TOKEN_BOT = "<TELEGRAM-TOKEN-BOT>" # Token of Telegram Bot
-
+ENGINE = "gpt-4"
 
 # Enable logging
 logging.basicConfig(
@@ -45,10 +45,10 @@ dispatcher = updater.dispatcher
 def handle_message(update, context):
     # Use the OpenAI API to generate a response to the user's message
     response = openai.Completion.create(
-        engine="text-davinci-003",
+        engine=ENGINE,
         prompt=" ".join(context.args),
         max_tokens=1024,
-        temperature=0.5,
+        temperature=0.3,
     )
 
     message = f"```{response['choices'][0]['text']}\n```"
